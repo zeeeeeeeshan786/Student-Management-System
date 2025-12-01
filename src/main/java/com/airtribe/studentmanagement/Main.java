@@ -45,6 +45,9 @@ public class Main {
         courseService.addCourse(pde);
         courseService.addCourse(statsDs);
 
+//            EnrollmentService.enrollStudent(zee, pde); // Any of them can be used...this is a static method to....no need to create ojbect
+
+
         Enrollment enrollment1 =  EnrollmentService.enrollStudent(zee,pde);
         Enrollment enrollment2 =  EnrollmentService.enrollStudent(zee,realAnalysis, 83);
         Enrollment enrollment3 =  EnrollmentService.enrollStudent(zee,statsDs, 78);
